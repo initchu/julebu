@@ -1,13 +1,10 @@
 <div align="center">
   <img alt="Earthworm" width="120" height="120" src="./assets/logo/logo-1000.png">
   <h1>Earthworm</h1>
-  <span>中文 | <a href="./README.md">English</a></span>
 </div>
 
-<div align="center">
-  <br/>
-  <a href="https://hellogithub.com/repository/9433615761f548cf9648434c670cd85b" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=9433615761f548cf9648434c670cd85b&claim_uid=249cPWvjfNmU7dp" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-</div>
+
+
 
 ## ⚡ 介绍
 
@@ -252,27 +249,3 @@ newgrp docker
 docker images
 ```
 
-## 🤝 前端开发规范
-
-1. 不要解构 pinia 的 store
-
-   - 解构会导致响应式丢失问题（ref 类型也会变成普通类型）
-     - 使用 storeToRefs 非常的麻烦
-   - 带上 store 代码可读性也会更好一点 一眼就能知道数据的来源是哪里
-
-2. composables 里面不要包含 UI 逻辑
-
-   - Such as `toast.info()`
-   - router 相关的也不要放进去（不便于测试 我们把 router 划分为 UI 逻辑）
-
-## 🚀 星路历程
-
-[![Stargazers over time](https://starchart.cc/cuixueshe/earthworm.svg?variant=adaptive)](https://starchart.cc/cuixueshe/earthworm)
-
-## 🌟 贡献者
-
-在此感谢所有为 Earthworm 做出过贡献的人！🎉
-
-<a href="https://github.com//cuixueshe/earthworm/graphs/contributors"><img src="https://contributors.nn.ci/api?repo=cuixueshe/earthworm" /></a>
-
-<a href="https://hellogithub.com/repository/9433615761f548cf9648434c670cd85b" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=9433615761f548cf9648434c670cd85b&claim_uid=249cPWvjfNmU7dp" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
